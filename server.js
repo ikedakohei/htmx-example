@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 // ランダムな数字を生成して返すルート
-app.get('/random-number', (req, res) => {
+app.get('/random_number', (req, res) => {
   const randomNumber = Math.floor(Math.random() * 100) + 1;
   res.send(randomNumber.toString());
 });
